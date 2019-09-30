@@ -1,0 +1,6 @@
+- hosts: metrics
+  become: yes
+  roles:
+    - prometheus
+    - nginx
+    - grafana

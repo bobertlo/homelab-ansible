@@ -7,3 +7,12 @@
 [submodule "ansible/roles/node_exporter"]
 	path = ansible/roles/node_exporter
 	url = https://github.com/void-ansible-roles/node_exporter
+[submodule "ansible/roles/prometheus"]
+	path = ansible/roles/prometheus
+	url = https://github.com/void-ansible-roles/prometheus
+[submodule "ansible/roles/grafana"]
+	path = ansible/roles/grafana
+	url = https://github.com/void-ansible-roles/grafana
+[submodule "ansible/roles/nginx"]
+	path = ansible/roles/nginx
+	url = https://github.com/void-ansible-roles/nginx/

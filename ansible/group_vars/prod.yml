@@ -1,0 +1,10 @@
+prometheus:
+  jobs:
+    - name: prod
+      targets:
+        - host: build-master.int.nsfworks.com
+          port: 9100
+        - host: codex.int.nsfworks.com
+          port: 9100
+        - host: heimdall.int.nsfworks.com
+          port: 9100
