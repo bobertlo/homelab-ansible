@@ -1,5 +1,9 @@
 [void]
 build-master.int.nsfworks.com
+heimdall.int.nsfworks.com
+codex.int.nsfworks.com
 
 [prod]
 build-master.int.nsfworks.com
+heimdall.int.nsfworks.com
+codex.int.nsfworks.com
