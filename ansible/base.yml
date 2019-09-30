@@ -4,3 +4,4 @@
   roles:
     - popcorn
     - sshd
+    - node_exporter
