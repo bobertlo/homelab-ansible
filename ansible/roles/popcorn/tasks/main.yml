@@ -1,0 +1,11 @@
+---
+- name: Install PopCorn
+  xbps:
+    package: PopCorn
+    state: present
+
+- name: Add PopCorn service
+  runit:
+    name: popcorn
+    enabled: yes
+    state: started

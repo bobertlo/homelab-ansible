@@ -1,0 +1,6 @@
+---
+- hosts: void
+  become: yes
+  roles:
+    - popcorn
+    - sshd
