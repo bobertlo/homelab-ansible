@@ -2,11 +2,15 @@
 build-master.int.nsfworks.com
 heimdall.int.nsfworks.com
 codex.int.nsfworks.com
+merlin.int.nsfworks.com
 
 [prod]
 build-master.int.nsfworks.com
 heimdall.int.nsfworks.com
 codex.int.nsfworks.com
+
+[staging]
+merlin.int.nsfworks.com
 
 [metrics]
 codex.int.nsfworks.com

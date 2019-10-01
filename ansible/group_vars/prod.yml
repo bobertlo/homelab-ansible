@@ -8,3 +8,11 @@ prometheus:
           port: 9100
         - host: heimdall.int.nsfworks.com
           port: 9100
+    - name: prometheus
+      targets:
+        - host: codex.int.nsfworks.com
+          port: 9090
+    - name: staging
+      targets:
+        - host: merlin.int.nsfworks.com
+          port: 9100
