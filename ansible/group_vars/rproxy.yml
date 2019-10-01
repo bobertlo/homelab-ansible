@@ -1,0 +1,10 @@
+---
+caddy:
+  tls_hostmaster: robert@nsfworks.com
+  site:
+    name: metrics
+    urls:
+     - metrics.x.nsfworks.com:80
+    proxy:
+      - from: /
+        to: codex.int.nsfworks.com:80

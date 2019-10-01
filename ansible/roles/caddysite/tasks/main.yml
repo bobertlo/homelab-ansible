@@ -1,0 +1,6 @@
+- name: Configure caddy base-site
+  include_role:
+    name: caddy
+    tasks_from: base-site
+  vars:
+    - site: "{{ caddy.site }}"
