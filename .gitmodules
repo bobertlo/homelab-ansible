@@ -1,6 +1,6 @@
 [submodule "ansible/roles/network"]
 	path = ansible/roles/network
-	url = https://github.com/void-ansible-roles/network
+	url = https://github.com/bobertlo/void-ansible-network
 [submodule "ansible/roles/sshd"]
 	path = ansible/roles/sshd
 	url = https://github.com/void-ansible-roles/sshd
