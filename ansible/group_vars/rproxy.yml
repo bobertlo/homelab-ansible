@@ -4,7 +4,7 @@ caddy:
   site:
     name: metrics
     urls:
-     - metrics.x.nsfworks.com:80
+     - metrics.x.nsfworks.com
     proxy:
       - from: /
         to: codex.int.nsfworks.com:80
