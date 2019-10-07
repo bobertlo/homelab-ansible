@@ -2,6 +2,7 @@
 - hosts: void
   become: yes
   roles:
+    - network
     - popcorn
     - sshd
     - node_exporter

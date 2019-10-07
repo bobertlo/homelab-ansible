@@ -3,6 +3,7 @@ build-master.int.nsfworks.com
 heimdall.int.nsfworks.com
 codex.int.nsfworks.com
 merlin.int.nsfworks.com
+vm1.us-central1-c.gcp.nsfworks.com
 
 [prod]
 build-master.int.nsfworks.com
@@ -13,7 +14,11 @@ codex.int.nsfworks.com
 merlin.int.nsfworks.com
 
 [metrics]
+vm1.us-central1-c.gcp.nsfworks.com
 codex.int.nsfworks.com
 
 [rproxy]
 heimdall.int.nsfworks.com
+
+[offsite]
+vm1.us-central1-c.gcp.nsfworks.com

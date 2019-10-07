@@ -1,0 +1,16 @@
+---
+network_input_policy: DROP
+network_output_policy: ACCEPT
+network_forward_policy: DROP
+
+network_interfaces:
+  - name: eth0
+    mode: static
+    mode6: disabled
+    resolvermode: static
+    addresses:
+      - 10.128.0.6/32
+    resolvers:
+      - 169.254.169.254
+    routers:
+      - 10.128.0.1
