@@ -1,9 +1,0 @@
----
-grafana:
-  site:
-    name: grafana
-    urls:
-      - metrics.x.nsfworks.com
-      - metrics.int.nsfworks.com
-      - 10.1.1.22
-    static_root: no

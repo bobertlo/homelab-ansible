@@ -1,0 +1,14 @@
+---
+prometheus:
+  jobs:
+    - name: offsite
+      targets:
+        - host: localhost
+          port: 9100
+
+grafana:
+  site:
+    name: grafana
+    urls:
+      - metrics.nsfworks.com
+    static_root: no
